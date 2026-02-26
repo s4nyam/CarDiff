@@ -1,6 +1,7 @@
 import os
 from argparse import ArgumentParser
 # python main.py --segmentation_guided
+# python main.py --cardiff --segmentation_guided   (for CarDiff)
 # torch imports
 import torch
 from torch import nn
@@ -16,6 +17,14 @@ import datasets
 # custom imports
 from training import TrainingConfig, train_loop
 from eval import evaluate_generation, evaluate_sample_many
+
+# CarDiff imports
+from cardiff import (
+    CarDiffModel,
+    CarDiffTrainingConfig,
+    cardiff_train_loop,
+    CarDiffPipeline,
+)
 
 def main(
     mode,
@@ -384,6 +393,206 @@ def main(
         raise ValueError("mode \"{}\" not supported.".format(mode))
 
 
+# ======================================================================
+# CarDiff entry point
+# ======================================================================
+
+def main_cardiff(
+    mode,
+    img_size,
+    num_img_channels,
+    dataset,
+    img_dir,
+    seg_dir,
+    model_type,
+    segmentation_channel_mode,
+    num_segmentation_classes,
+    train_batch_size,
+    eval_batch_size,
+    num_epochs,
+    resume_epoch=None,
+    eval_shuffle_dataloader=True,
+    eval_sample_size=1000,
+    vae_pretrained_path=None,
+    enable_path_b=True,
+    path_b_start_epoch=10,
+):
+    """
+    CarDiff training / evaluation entry point.
+    
+    Builds a CarDiffModel, sets up dataloaders via the same pipeline as the
+    baseline, and dispatches to cardiff_train_loop or CarDiffPipeline.
+    """
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"[CarDiff] running on {device}")
+
+    output_dir = f"cardiff-{dataset}-{img_size}"
+    print(f"[CarDiff] output dir: {output_dir}")
+
+    evalset_name = "val" if mode == "train" else "test"
+    print(f"[CarDiff] evaluation set: {evalset_name}")
+
+    # ------------------------------------------------------------------
+    # Build dataloaders (reuse existing logic)
+    # ------------------------------------------------------------------
+    assert seg_dir is not None, "CarDiff requires --seg_dir"
+
+    seg_types = os.listdir(seg_dir)
+
+    def _build_paths(img_base, seg_base, split):
+        img_split = os.path.join(img_base, split) if img_base else None
+        img_paths = sorted([os.path.join(img_split, f) for f in os.listdir(img_split)]) if img_split else None
+        seg_paths = {}
+        for st in seg_types:
+            ref = os.listdir(img_split) if img_split else os.listdir(os.path.join(seg_base, st, split))
+            seg_paths[st] = sorted([os.path.join(seg_base, st, split, f) for f in ref])
+        return img_paths, seg_paths
+
+    img_paths_train, seg_paths_train = _build_paths(img_dir, seg_dir, "train")
+    img_paths_eval, seg_paths_eval = _build_paths(img_dir, seg_dir, evalset_name)
+
+    def _to_dataset(img_paths, seg_paths):
+        d = {}
+        if img_paths:
+            d["image"] = img_paths
+            d["image_filename"] = [os.path.basename(f) for f in img_paths]
+        else:
+            first_key = list(seg_paths.keys())[0]
+            d["image_filename"] = [os.path.basename(f) for f in seg_paths[first_key]]
+        for st in seg_types:
+            d[f"seg_{st}"] = seg_paths[st]
+        ds = datasets.Dataset.from_dict(d)
+        if img_paths:
+            ds = ds.cast_column("image", datasets.Image())
+        for st in seg_types:
+            ds = ds.cast_column(f"seg_{st}", datasets.Image())
+        return ds
+
+    dataset_train = _to_dataset(img_paths_train, seg_paths_train)
+    dataset_eval = _to_dataset(img_paths_eval, seg_paths_eval)
+
+    # Transforms
+    preprocess = transforms.Compose([
+        transforms.Resize((img_size, img_size)),
+        transforms.ToTensor(),
+        transforms.Normalize(num_img_channels * [0.5], num_img_channels * [0.5]),
+    ])
+    preprocess_seg = transforms.Compose([
+        transforms.Resize((img_size, img_size), interpolation=transforms.InterpolationMode.NEAREST),
+        transforms.ToTensor(),
+    ])
+
+    pil_mode = "L" if num_img_channels == 1 else "RGB"
+
+    def transform(examples):
+        out = {}
+        if "image" in examples:
+            out["images"] = [preprocess(img.convert(pil_mode)) for img in examples["image"]]
+        out["image_filenames"] = examples["image_filename"]
+        for st in seg_types:
+            out[f"seg_{st}"] = [preprocess_seg(img.convert("L")) for img in examples[f"seg_{st}"]]
+        return out
+
+    dataset_train.set_transform(transform)
+    dataset_eval.set_transform(transform)
+
+    train_dataloader = torch.utils.data.DataLoader(
+        dataset_train, batch_size=train_batch_size, shuffle=True
+    )
+    eval_dataloader = torch.utils.data.DataLoader(
+        dataset_eval, batch_size=eval_batch_size, shuffle=eval_shuffle_dataloader
+    )
+
+    # ------------------------------------------------------------------
+    # Build CarDiff model
+    # ------------------------------------------------------------------
+    cardiff_config = CarDiffTrainingConfig(
+        image_size=img_size,
+        img_channels=num_img_channels,
+        num_classes=num_segmentation_classes,
+        train_batch_size=train_batch_size,
+        eval_batch_size=eval_batch_size,
+        num_epochs=num_epochs,
+        model_type=model_type,
+        output_dir=output_dir,
+        resume_epoch=resume_epoch,
+        vae_pretrained_path=vae_pretrained_path,
+        enable_path_b=enable_path_b,
+        path_b_start_epoch=path_b_start_epoch,
+        dataset=dataset,
+    )
+
+    model = CarDiffModel(
+        image_size=img_size,
+        img_channels=num_img_channels,
+        num_classes=num_segmentation_classes,
+        vae_pretrained_path=vae_pretrained_path,
+    )
+
+    # Noise scheduler
+    if model_type == "DDPM":
+        noise_scheduler = diffusers.DDPMScheduler(num_train_timesteps=1000)
+    elif model_type == "DDIM":
+        noise_scheduler = diffusers.DDIMScheduler(num_train_timesteps=1000)
+    else:
+        raise ValueError(f"Unknown model_type: {model_type}")
+
+    # Resume from checkpoint
+    if resume_epoch is not None:
+        ckpt_path = os.path.join(output_dir, f"checkpoint_epoch_{resume_epoch}", "cardiff_model.pt")
+        if os.path.exists(ckpt_path):
+            print(f"[CarDiff] Resuming from {ckpt_path}")
+            state = torch.load(ckpt_path, map_location="cpu")
+            model.load_state_dict(state, strict=False)
+
+    model = model.to(device)
+
+    # ------------------------------------------------------------------
+    # Dispatch
+    # ------------------------------------------------------------------
+    if mode == "train":
+        cardiff_train_loop(
+            cardiff_config,
+            model,
+            noise_scheduler,
+            train_dataloader,
+            eval_dataloader,
+            device=str(device),
+        )
+
+    elif mode == "eval" or mode == "eval_many":
+        pipeline = CarDiffPipeline(model, noise_scheduler, device=str(device))
+
+        sample_dir = os.path.join(output_dir, f"samples_cardiff_{eval_sample_size}")
+        os.makedirs(sample_dir, exist_ok=True)
+
+        num_sampled = 0
+        for batch in eval_dataloader:
+            if num_sampled >= eval_sample_size:
+                break
+
+            # Build single-channel mask
+            seg_keys = [k for k in batch.keys() if k.startswith("seg_")]
+            masks = torch.zeros_like(batch[seg_keys[0]]).to(device)
+            for k in seg_keys:
+                seg = batch[k].to(device)
+                masks[masks == 0] = seg[masks == 0]
+
+            images = pipeline(masks, num_inference_steps=1000, output_type="pil")
+            for i, img in enumerate(images):
+                fname = batch["image_filenames"][i]
+                img.save(os.path.join(sample_dir, f"cardiff_{fname}"))
+                num_sampled += 1
+                if num_sampled >= eval_sample_size:
+                    break
+            print(f"Sampled {num_sampled}/{eval_sample_size}")
+
+        print(f"[CarDiff] Sampling complete. Saved to {sample_dir}")
+
+    else:
+        raise ValueError(f"mode \"{mode}\" not supported for CarDiff.")
+
+
 if __name__ == "__main__":
     # parse args:
     parser = ArgumentParser()
@@ -413,28 +622,57 @@ if __name__ == "__main__":
     parser.add_argument('--eval_blank_mask', action='store_true', help='if true, evaluate sampling conditioned on blank (zeros) masks')
     parser.add_argument('--eval_sample_size', type=int, default=100, help='number of images to sample when using eval_many mode')
 
+    # CarDiff options
+    parser.add_argument('--cardiff', action='store_true', help='use CarDiff (causally-structured diffusion) instead of baseline')
+    parser.add_argument('--vae_pretrained_path', type=str, default=None, help='path to pre-trained VAE weights for CarDiff')
+    parser.add_argument('--enable_path_b', action='store_true', help='enable self-supervised Path B in CarDiff')
+    parser.add_argument('--path_b_start_epoch', type=int, default=10, help='epoch to start Path B training')
+
     args = parser.parse_args()
 
-    main(
-        args.mode,
-        args.img_size,
-        args.num_img_channels,
-        args.dataset,
-        args.img_dir,
-        args.seg_dir,
-        args.model_type,
-        args.segmentation_guided,
-        args.segmentation_channel_mode,
-        args.num_segmentation_classes,
-        args.train_batch_size,
-        args.eval_batch_size,
-        args.num_epochs,
-        args.resume_epoch,
-        args.use_ablated_segmentations,
-        not args.eval_noshuffle_dataloader,
-
-        # args only used in eval
-        args.eval_mask_removal,
-        args.eval_blank_mask,
-        args.eval_sample_size
-    )
+    if args.cardiff:
+        # ---- CarDiff pathway ----
+        main_cardiff(
+            args.mode,
+            args.img_size,
+            args.num_img_channels,
+            args.dataset,
+            args.img_dir,
+            args.seg_dir,
+            args.model_type,
+            args.segmentation_channel_mode,
+            args.num_segmentation_classes,
+            args.train_batch_size,
+            args.eval_batch_size,
+            args.num_epochs,
+            args.resume_epoch,
+            not args.eval_noshuffle_dataloader,
+            args.eval_sample_size,
+            args.vae_pretrained_path,
+            args.enable_path_b,
+            args.path_b_start_epoch,
+        )
+    else:
+        # ---- Baseline pathway (unchanged) ----
+        main(
+            args.mode,
+            args.img_size,
+            args.num_img_channels,
+            args.dataset,
+            args.img_dir,
+            args.seg_dir,
+            args.model_type,
+            args.segmentation_guided,
+            args.segmentation_channel_mode,
+            args.num_segmentation_classes,
+            args.train_batch_size,
+            args.eval_batch_size,
+            args.num_epochs,
+            args.resume_epoch,
+            args.use_ablated_segmentations,
+            not args.eval_noshuffle_dataloader,
+            # args only used in eval
+            args.eval_mask_removal,
+            args.eval_blank_mask,
+            args.eval_sample_size,
+        )
