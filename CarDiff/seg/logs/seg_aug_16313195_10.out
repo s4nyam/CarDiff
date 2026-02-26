@@ -1,0 +1,60 @@
+=================================
+Running configuration:
+Model: MAnet
+Aug Multiplier: 1
+=================================
+Using MIOpen cache at: /scratch/project_465002351/jainsany/miopen_16313212_10
+Train size after augmentation: 1833
+Validation size (unchanged): 521
+Test size (unchanged): 261
+Epoch 1: Train Dice Loss=0.7546
+Epoch 2: Train Dice Loss=0.7223
+Epoch 3: Train Dice Loss=0.7032
+Epoch 4: Train Dice Loss=0.6789
+Epoch 5: Train Dice Loss=0.6607
+Epoch 6: Train Dice Loss=0.6493
+Epoch 7: Train Dice Loss=0.6210
+Epoch 8: Train Dice Loss=0.6035
+Epoch 9: Train Dice Loss=0.5935
+Epoch 10: Train Dice Loss=0.5771
+Epoch 11: Train Dice Loss=0.5696
+Epoch 12: Train Dice Loss=0.5509
+Epoch 13: Train Dice Loss=0.5467
+Epoch 14: Train Dice Loss=0.5391
+Epoch 15: Train Dice Loss=0.5407
+Epoch 16: Train Dice Loss=0.5200
+Epoch 17: Train Dice Loss=0.5169
+Epoch 18: Train Dice Loss=0.5114
+Epoch 19: Train Dice Loss=0.5020
+Epoch 20: Train Dice Loss=0.4932
+Epoch 21: Train Dice Loss=0.4792
+Epoch 22: Train Dice Loss=0.5185
+Epoch 23: Train Dice Loss=0.4825
+Epoch 24: Train Dice Loss=0.4806
+Epoch 25: Train Dice Loss=0.4653
+Epoch 26: Train Dice Loss=0.4620
+Epoch 27: Train Dice Loss=0.4476
+Epoch 28: Train Dice Loss=0.4549
+Epoch 29: Train Dice Loss=0.4433
+Epoch 30: Train Dice Loss=0.4264
+Epoch 31: Train Dice Loss=0.4175
+Epoch 32: Train Dice Loss=0.4165
+Epoch 33: Train Dice Loss=0.4105
+Epoch 34: Train Dice Loss=0.4084
+Epoch 35: Train Dice Loss=0.4067
+Epoch 36: Train Dice Loss=0.4159
+Epoch 37: Train Dice Loss=0.3979
+Epoch 38: Train Dice Loss=0.3842
+Epoch 39: Train Dice Loss=0.3818
+Epoch 40: Train Dice Loss=0.3828
+Epoch 41: Train Dice Loss=0.3851
+Epoch 42: Train Dice Loss=0.3670
+Epoch 43: Train Dice Loss=0.3609
+Epoch 44: Train Dice Loss=0.3587
+Epoch 45: Train Dice Loss=0.3456
+Epoch 46: Train Dice Loss=0.3430
+Epoch 47: Train Dice Loss=0.3363
+Epoch 48: Train Dice Loss=0.3432
+Epoch 49: Train Dice Loss=0.3465
+Epoch 50: Train Dice Loss=0.3434
+Saved results for MAnet with augmentation x1

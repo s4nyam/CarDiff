@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH --job-name=run
+#SBATCH --account=project_465002351
+#SBATCH --time=72:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --partition=small-g
+#SBATCH --gpus-per-task=1
+
+srun singularity exec -B /scratch/project_465002351/fdi16/ py_cotainr.sif python -c "import lpips; print(lpips.__file__)"

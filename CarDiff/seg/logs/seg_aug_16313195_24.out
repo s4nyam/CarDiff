@@ -1,0 +1,60 @@
+=================================
+Running configuration:
+Model: FPN
+Aug Multiplier: 5
+=================================
+Using MIOpen cache at: /scratch/project_465002351/jainsany/miopen_16313226_24
+Train size after augmentation: 9165
+Validation size (unchanged): 521
+Test size (unchanged): 261
+Epoch 1: Train Dice Loss=0.7469
+Epoch 2: Train Dice Loss=0.7289
+Epoch 3: Train Dice Loss=0.6686
+Epoch 4: Train Dice Loss=0.6067
+Epoch 5: Train Dice Loss=0.5683
+Epoch 6: Train Dice Loss=0.5367
+Epoch 7: Train Dice Loss=0.5135
+Epoch 8: Train Dice Loss=0.5001
+Epoch 9: Train Dice Loss=0.4871
+Epoch 10: Train Dice Loss=0.4784
+Epoch 11: Train Dice Loss=0.4744
+Epoch 12: Train Dice Loss=0.4626
+Epoch 13: Train Dice Loss=0.4560
+Epoch 14: Train Dice Loss=0.4503
+Epoch 15: Train Dice Loss=0.4437
+Epoch 16: Train Dice Loss=0.4378
+Epoch 17: Train Dice Loss=0.4283
+Epoch 18: Train Dice Loss=0.4328
+Epoch 19: Train Dice Loss=0.4174
+Epoch 20: Train Dice Loss=0.4163
+Epoch 21: Train Dice Loss=0.4143
+Epoch 22: Train Dice Loss=0.4054
+Epoch 23: Train Dice Loss=0.3931
+Epoch 24: Train Dice Loss=0.3905
+Epoch 25: Train Dice Loss=0.3802
+Epoch 26: Train Dice Loss=0.3794
+Epoch 27: Train Dice Loss=0.3725
+Epoch 28: Train Dice Loss=0.3791
+Epoch 29: Train Dice Loss=0.3667
+Epoch 30: Train Dice Loss=0.3569
+Epoch 31: Train Dice Loss=0.3418
+Epoch 32: Train Dice Loss=0.3377
+Epoch 33: Train Dice Loss=0.3331
+Epoch 34: Train Dice Loss=0.3336
+Epoch 35: Train Dice Loss=0.3272
+Epoch 36: Train Dice Loss=0.3184
+Epoch 37: Train Dice Loss=0.3085
+Epoch 38: Train Dice Loss=0.3176
+Epoch 39: Train Dice Loss=0.3089
+Epoch 40: Train Dice Loss=0.3086
+Epoch 41: Train Dice Loss=0.2920
+Epoch 42: Train Dice Loss=0.2922
+Epoch 43: Train Dice Loss=0.3035
+Epoch 44: Train Dice Loss=0.2846
+Epoch 45: Train Dice Loss=0.2899
+Epoch 46: Train Dice Loss=0.2822
+Epoch 47: Train Dice Loss=0.2957
+Epoch 48: Train Dice Loss=0.2732
+Epoch 49: Train Dice Loss=0.2761
+Epoch 50: Train Dice Loss=0.2724
+Saved results for FPN with augmentation x5

@@ -1,0 +1,60 @@
+=================================
+Running configuration:
+Model: UnetPlusPlus
+Aug Multiplier: 3
+=================================
+Using MIOpen cache at: /scratch/project_465002351/jainsany/miopen_16313209_7
+Train size after augmentation: 5499
+Validation size (unchanged): 521
+Test size (unchanged): 261
+Epoch 1: Train Dice Loss=0.6794
+Epoch 2: Train Dice Loss=0.5874
+Epoch 3: Train Dice Loss=0.5440
+Epoch 4: Train Dice Loss=0.5164
+Epoch 5: Train Dice Loss=0.5053
+Epoch 6: Train Dice Loss=0.4918
+Epoch 7: Train Dice Loss=0.4873
+Epoch 8: Train Dice Loss=0.4784
+Epoch 9: Train Dice Loss=0.4761
+Epoch 10: Train Dice Loss=0.4617
+Epoch 11: Train Dice Loss=0.4565
+Epoch 12: Train Dice Loss=0.4512
+Epoch 13: Train Dice Loss=0.4392
+Epoch 14: Train Dice Loss=0.4302
+Epoch 15: Train Dice Loss=0.4317
+Epoch 16: Train Dice Loss=0.4290
+Epoch 17: Train Dice Loss=0.4210
+Epoch 18: Train Dice Loss=0.4149
+Epoch 19: Train Dice Loss=0.4075
+Epoch 20: Train Dice Loss=0.4056
+Epoch 21: Train Dice Loss=0.3902
+Epoch 22: Train Dice Loss=0.3880
+Epoch 23: Train Dice Loss=0.3933
+Epoch 24: Train Dice Loss=0.3825
+Epoch 25: Train Dice Loss=0.3848
+Epoch 26: Train Dice Loss=0.3741
+Epoch 27: Train Dice Loss=0.3650
+Epoch 28: Train Dice Loss=0.3616
+Epoch 29: Train Dice Loss=0.3532
+Epoch 30: Train Dice Loss=0.3541
+Epoch 31: Train Dice Loss=0.3391
+Epoch 32: Train Dice Loss=0.3457
+Epoch 33: Train Dice Loss=0.3338
+Epoch 34: Train Dice Loss=0.3285
+Epoch 35: Train Dice Loss=0.3371
+Epoch 36: Train Dice Loss=0.3337
+Epoch 37: Train Dice Loss=0.3261
+Epoch 38: Train Dice Loss=0.3153
+Epoch 39: Train Dice Loss=0.3389
+Epoch 40: Train Dice Loss=0.3188
+Epoch 41: Train Dice Loss=0.3079
+Epoch 42: Train Dice Loss=0.3116
+Epoch 43: Train Dice Loss=0.3043
+Epoch 44: Train Dice Loss=0.2988
+Epoch 45: Train Dice Loss=0.2891
+Epoch 46: Train Dice Loss=0.2984
+Epoch 47: Train Dice Loss=0.2969
+Epoch 48: Train Dice Loss=0.2901
+Epoch 49: Train Dice Loss=0.2837
+Epoch 50: Train Dice Loss=0.3008
+Saved results for UnetPlusPlus with augmentation x3

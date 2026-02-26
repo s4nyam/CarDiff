@@ -1,0 +1,1615 @@
+[INFO] Starting processing of label images in: ./test_data/labels
+[INFO] Ensuring output root directory exists at: ./test_data/processed_labels
+[INFO]   Ensured directory for combination 'SC': ./test_data/processed_labels/SC
+[INFO]   Ensured directory for combination 'MC': ./test_data/processed_labels/MC
+[INFO]   Ensured directory for combination 'DC': ./test_data/processed_labels/DC
+[INFO]   Ensured directory for combination 'SC+MC': ./test_data/processed_labels/SC+MC
+[INFO]   Ensured directory for combination 'SC+DC': ./test_data/processed_labels/SC+DC
+[INFO]   Ensured directory for combination 'MC+DC': ./test_data/processed_labels/MC+DC
+[INFO]   Ensured directory for combination 'SC+MC+DC': ./test_data/processed_labels/SC+MC+DC
+[INFO] Found 261 image file(s) to process.
+
+[INFO] Processing file: ts_1.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_1.png' -> ./test_data/processed_labels/SC/ts_1.png
+[INFO]   Saved combination 'MC' for 'ts_1.png' -> ./test_data/processed_labels/MC/ts_1.png
+[INFO]   Saved combination 'SC+MC' for 'ts_1.png' -> ./test_data/processed_labels/SC+MC/ts_1.png
+
+[INFO] Processing file: ts_10.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_10.png' -> ./test_data/processed_labels/SC/ts_10.png
+[INFO]   Saved combination 'DC' for 'ts_10.png' -> ./test_data/processed_labels/DC/ts_10.png
+[INFO]   Saved combination 'SC+DC' for 'ts_10.png' -> ./test_data/processed_labels/SC+DC/ts_10.png
+
+[INFO] Processing file: ts_100.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_100.png' -> ./test_data/processed_labels/DC/ts_100.png
+
+[INFO] Processing file: ts_101.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_101.png' -> ./test_data/processed_labels/DC/ts_101.png
+
+[INFO] Processing file: ts_102.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_102.png' -> ./test_data/processed_labels/DC/ts_102.png
+
+[INFO] Processing file: ts_103.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_103.png' -> ./test_data/processed_labels/SC/ts_103.png
+[INFO]   Saved combination 'DC' for 'ts_103.png' -> ./test_data/processed_labels/DC/ts_103.png
+[INFO]   Saved combination 'SC+DC' for 'ts_103.png' -> ./test_data/processed_labels/SC+DC/ts_103.png
+
+[INFO] Processing file: ts_104.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_104.png' -> ./test_data/processed_labels/SC/ts_104.png
+
+[INFO] Processing file: ts_105.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_105.png' -> ./test_data/processed_labels/SC/ts_105.png
+[INFO]   Saved combination 'DC' for 'ts_105.png' -> ./test_data/processed_labels/DC/ts_105.png
+[INFO]   Saved combination 'SC+DC' for 'ts_105.png' -> ./test_data/processed_labels/SC+DC/ts_105.png
+
+[INFO] Processing file: ts_106.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_106.png' -> ./test_data/processed_labels/MC/ts_106.png
+
+[INFO] Processing file: ts_107.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_107.png' -> ./test_data/processed_labels/MC/ts_107.png
+
+[INFO] Processing file: ts_108.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_108.png' -> ./test_data/processed_labels/SC/ts_108.png
+[INFO]   Saved combination 'MC' for 'ts_108.png' -> ./test_data/processed_labels/MC/ts_108.png
+[INFO]   Saved combination 'SC+MC' for 'ts_108.png' -> ./test_data/processed_labels/SC+MC/ts_108.png
+
+[INFO] Processing file: ts_109.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_109.png' -> ./test_data/processed_labels/SC/ts_109.png
+
+[INFO] Processing file: ts_11.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_11.png' -> ./test_data/processed_labels/SC/ts_11.png
+
+[INFO] Processing file: ts_110.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_110.png' -> ./test_data/processed_labels/SC/ts_110.png
+[INFO]   Saved combination 'MC' for 'ts_110.png' -> ./test_data/processed_labels/MC/ts_110.png
+[INFO]   Saved combination 'DC' for 'ts_110.png' -> ./test_data/processed_labels/DC/ts_110.png
+[INFO]   Saved combination 'SC+MC' for 'ts_110.png' -> ./test_data/processed_labels/SC+MC/ts_110.png
+[INFO]   Saved combination 'SC+DC' for 'ts_110.png' -> ./test_data/processed_labels/SC+DC/ts_110.png
+[INFO]   Saved combination 'MC+DC' for 'ts_110.png' -> ./test_data/processed_labels/MC+DC/ts_110.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_110.png' -> ./test_data/processed_labels/SC+MC+DC/ts_110.png
+
+[INFO] Processing file: ts_111.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_111.png' -> ./test_data/processed_labels/SC/ts_111.png
+
+[INFO] Processing file: ts_112.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_112.png' -> ./test_data/processed_labels/MC/ts_112.png
+
+[INFO] Processing file: ts_113.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_113.png' -> ./test_data/processed_labels/DC/ts_113.png
+
+[INFO] Processing file: ts_114.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_114.png' -> ./test_data/processed_labels/SC/ts_114.png
+
+[INFO] Processing file: ts_115.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_115.png' -> ./test_data/processed_labels/SC/ts_115.png
+[INFO]   Saved combination 'MC' for 'ts_115.png' -> ./test_data/processed_labels/MC/ts_115.png
+[INFO]   Saved combination 'DC' for 'ts_115.png' -> ./test_data/processed_labels/DC/ts_115.png
+[INFO]   Saved combination 'SC+MC' for 'ts_115.png' -> ./test_data/processed_labels/SC+MC/ts_115.png
+[INFO]   Saved combination 'SC+DC' for 'ts_115.png' -> ./test_data/processed_labels/SC+DC/ts_115.png
+[INFO]   Saved combination 'MC+DC' for 'ts_115.png' -> ./test_data/processed_labels/MC+DC/ts_115.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_115.png' -> ./test_data/processed_labels/SC+MC+DC/ts_115.png
+
+[INFO] Processing file: ts_116.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_116.png' -> ./test_data/processed_labels/SC/ts_116.png
+
+[INFO] Processing file: ts_117.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_117.png' -> ./test_data/processed_labels/DC/ts_117.png
+
+[INFO] Processing file: ts_118.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_118.png' -> ./test_data/processed_labels/SC/ts_118.png
+
+[INFO] Processing file: ts_119.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_119.png' -> ./test_data/processed_labels/DC/ts_119.png
+
+[INFO] Processing file: ts_12.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_12.png' -> ./test_data/processed_labels/DC/ts_12.png
+
+[INFO] Processing file: ts_120.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_120.png' -> ./test_data/processed_labels/SC/ts_120.png
+[INFO]   Saved combination 'MC' for 'ts_120.png' -> ./test_data/processed_labels/MC/ts_120.png
+[INFO]   Saved combination 'DC' for 'ts_120.png' -> ./test_data/processed_labels/DC/ts_120.png
+[INFO]   Saved combination 'SC+MC' for 'ts_120.png' -> ./test_data/processed_labels/SC+MC/ts_120.png
+[INFO]   Saved combination 'SC+DC' for 'ts_120.png' -> ./test_data/processed_labels/SC+DC/ts_120.png
+[INFO]   Saved combination 'MC+DC' for 'ts_120.png' -> ./test_data/processed_labels/MC+DC/ts_120.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_120.png' -> ./test_data/processed_labels/SC+MC+DC/ts_120.png
+
+[INFO] Processing file: ts_121.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_121.png' -> ./test_data/processed_labels/MC/ts_121.png
+
+[INFO] Processing file: ts_122.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_122.png' -> ./test_data/processed_labels/SC/ts_122.png
+[INFO]   Saved combination 'MC' for 'ts_122.png' -> ./test_data/processed_labels/MC/ts_122.png
+[INFO]   Saved combination 'DC' for 'ts_122.png' -> ./test_data/processed_labels/DC/ts_122.png
+[INFO]   Saved combination 'SC+MC' for 'ts_122.png' -> ./test_data/processed_labels/SC+MC/ts_122.png
+[INFO]   Saved combination 'SC+DC' for 'ts_122.png' -> ./test_data/processed_labels/SC+DC/ts_122.png
+[INFO]   Saved combination 'MC+DC' for 'ts_122.png' -> ./test_data/processed_labels/MC+DC/ts_122.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_122.png' -> ./test_data/processed_labels/SC+MC+DC/ts_122.png
+
+[INFO] Processing file: ts_123.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_123.png' -> ./test_data/processed_labels/SC/ts_123.png
+[INFO]   Saved combination 'MC' for 'ts_123.png' -> ./test_data/processed_labels/MC/ts_123.png
+[INFO]   Saved combination 'SC+MC' for 'ts_123.png' -> ./test_data/processed_labels/SC+MC/ts_123.png
+
+[INFO] Processing file: ts_124.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_124.png' -> ./test_data/processed_labels/MC/ts_124.png
+
+[INFO] Processing file: ts_125.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_125.png' -> ./test_data/processed_labels/SC/ts_125.png
+
+[INFO] Processing file: ts_126.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_126.png' -> ./test_data/processed_labels/SC/ts_126.png
+[INFO]   Saved combination 'MC' for 'ts_126.png' -> ./test_data/processed_labels/MC/ts_126.png
+[INFO]   Saved combination 'SC+MC' for 'ts_126.png' -> ./test_data/processed_labels/SC+MC/ts_126.png
+
+[INFO] Processing file: ts_127.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_127.png' -> ./test_data/processed_labels/SC/ts_127.png
+
+[INFO] Processing file: ts_128.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_128.png' -> ./test_data/processed_labels/MC/ts_128.png
+
+[INFO] Processing file: ts_129.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_129.png' -> ./test_data/processed_labels/SC/ts_129.png
+[INFO]   Saved combination 'MC' for 'ts_129.png' -> ./test_data/processed_labels/MC/ts_129.png
+[INFO]   Saved combination 'SC+MC' for 'ts_129.png' -> ./test_data/processed_labels/SC+MC/ts_129.png
+
+[INFO] Processing file: ts_13.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_13.png' -> ./test_data/processed_labels/MC/ts_13.png
+
+[INFO] Processing file: ts_130.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_130.png' -> ./test_data/processed_labels/DC/ts_130.png
+
+[INFO] Processing file: ts_131.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_131.png' -> ./test_data/processed_labels/SC/ts_131.png
+[INFO]   Saved combination 'MC' for 'ts_131.png' -> ./test_data/processed_labels/MC/ts_131.png
+[INFO]   Saved combination 'SC+MC' for 'ts_131.png' -> ./test_data/processed_labels/SC+MC/ts_131.png
+
+[INFO] Processing file: ts_132.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_132.png' -> ./test_data/processed_labels/MC/ts_132.png
+
+[INFO] Processing file: ts_133.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_133.png' -> ./test_data/processed_labels/SC/ts_133.png
+[INFO]   Saved combination 'DC' for 'ts_133.png' -> ./test_data/processed_labels/DC/ts_133.png
+[INFO]   Saved combination 'SC+DC' for 'ts_133.png' -> ./test_data/processed_labels/SC+DC/ts_133.png
+
+[INFO] Processing file: ts_135.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_135.png' -> ./test_data/processed_labels/SC/ts_135.png
+[INFO]   Saved combination 'DC' for 'ts_135.png' -> ./test_data/processed_labels/DC/ts_135.png
+[INFO]   Saved combination 'SC+DC' for 'ts_135.png' -> ./test_data/processed_labels/SC+DC/ts_135.png
+
+[INFO] Processing file: ts_136.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_136.png' -> ./test_data/processed_labels/MC/ts_136.png
+[INFO]   Saved combination 'DC' for 'ts_136.png' -> ./test_data/processed_labels/DC/ts_136.png
+[INFO]   Saved combination 'MC+DC' for 'ts_136.png' -> ./test_data/processed_labels/MC+DC/ts_136.png
+
+[INFO] Processing file: ts_137.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_137.png' -> ./test_data/processed_labels/DC/ts_137.png
+
+[INFO] Processing file: ts_138.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_138.png' -> ./test_data/processed_labels/MC/ts_138.png
+
+[INFO] Processing file: ts_139.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_139.png' -> ./test_data/processed_labels/DC/ts_139.png
+
+[INFO] Processing file: ts_14.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_14.png' -> ./test_data/processed_labels/DC/ts_14.png
+
+[INFO] Processing file: ts_140.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_140.png' -> ./test_data/processed_labels/SC/ts_140.png
+[INFO]   Saved combination 'DC' for 'ts_140.png' -> ./test_data/processed_labels/DC/ts_140.png
+[INFO]   Saved combination 'SC+DC' for 'ts_140.png' -> ./test_data/processed_labels/SC+DC/ts_140.png
+
+[INFO] Processing file: ts_141.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_141.png' -> ./test_data/processed_labels/SC/ts_141.png
+
+[INFO] Processing file: ts_142.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_142.png' -> ./test_data/processed_labels/DC/ts_142.png
+
+[INFO] Processing file: ts_143.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_143.png' -> ./test_data/processed_labels/SC/ts_143.png
+[INFO]   Saved combination 'MC' for 'ts_143.png' -> ./test_data/processed_labels/MC/ts_143.png
+[INFO]   Saved combination 'DC' for 'ts_143.png' -> ./test_data/processed_labels/DC/ts_143.png
+[INFO]   Saved combination 'SC+MC' for 'ts_143.png' -> ./test_data/processed_labels/SC+MC/ts_143.png
+[INFO]   Saved combination 'SC+DC' for 'ts_143.png' -> ./test_data/processed_labels/SC+DC/ts_143.png
+[INFO]   Saved combination 'MC+DC' for 'ts_143.png' -> ./test_data/processed_labels/MC+DC/ts_143.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_143.png' -> ./test_data/processed_labels/SC+MC+DC/ts_143.png
+
+[INFO] Processing file: ts_144.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_144.png' -> ./test_data/processed_labels/SC/ts_144.png
+
+[INFO] Processing file: ts_145.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_145.png' -> ./test_data/processed_labels/DC/ts_145.png
+
+[INFO] Processing file: ts_146.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_146.png' -> ./test_data/processed_labels/SC/ts_146.png
+[INFO]   Saved combination 'DC' for 'ts_146.png' -> ./test_data/processed_labels/DC/ts_146.png
+[INFO]   Saved combination 'SC+DC' for 'ts_146.png' -> ./test_data/processed_labels/SC+DC/ts_146.png
+
+[INFO] Processing file: ts_147.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_147.png' -> ./test_data/processed_labels/SC/ts_147.png
+[INFO]   Saved combination 'MC' for 'ts_147.png' -> ./test_data/processed_labels/MC/ts_147.png
+[INFO]   Saved combination 'SC+MC' for 'ts_147.png' -> ./test_data/processed_labels/SC+MC/ts_147.png
+
+[INFO] Processing file: ts_148.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_148.png' -> ./test_data/processed_labels/SC/ts_148.png
+
+[INFO] Processing file: ts_149.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_149.png' -> ./test_data/processed_labels/SC/ts_149.png
+
+[INFO] Processing file: ts_15.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_15.png' -> ./test_data/processed_labels/SC/ts_15.png
+[INFO]   Saved combination 'MC' for 'ts_15.png' -> ./test_data/processed_labels/MC/ts_15.png
+[INFO]   Saved combination 'SC+MC' for 'ts_15.png' -> ./test_data/processed_labels/SC+MC/ts_15.png
+
+[INFO] Processing file: ts_150.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_150.png' -> ./test_data/processed_labels/SC/ts_150.png
+[INFO]   Saved combination 'MC' for 'ts_150.png' -> ./test_data/processed_labels/MC/ts_150.png
+[INFO]   Saved combination 'SC+MC' for 'ts_150.png' -> ./test_data/processed_labels/SC+MC/ts_150.png
+
+[INFO] Processing file: ts_151.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_151.png' -> ./test_data/processed_labels/SC/ts_151.png
+[INFO]   Saved combination 'MC' for 'ts_151.png' -> ./test_data/processed_labels/MC/ts_151.png
+[INFO]   Saved combination 'SC+MC' for 'ts_151.png' -> ./test_data/processed_labels/SC+MC/ts_151.png
+
+[INFO] Processing file: ts_152.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_152.png' -> ./test_data/processed_labels/SC/ts_152.png
+[INFO]   Saved combination 'MC' for 'ts_152.png' -> ./test_data/processed_labels/MC/ts_152.png
+[INFO]   Saved combination 'DC' for 'ts_152.png' -> ./test_data/processed_labels/DC/ts_152.png
+[INFO]   Saved combination 'SC+MC' for 'ts_152.png' -> ./test_data/processed_labels/SC+MC/ts_152.png
+[INFO]   Saved combination 'SC+DC' for 'ts_152.png' -> ./test_data/processed_labels/SC+DC/ts_152.png
+[INFO]   Saved combination 'MC+DC' for 'ts_152.png' -> ./test_data/processed_labels/MC+DC/ts_152.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_152.png' -> ./test_data/processed_labels/SC+MC+DC/ts_152.png
+
+[INFO] Processing file: ts_153.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_153.png' -> ./test_data/processed_labels/MC/ts_153.png
+
+[INFO] Processing file: ts_154.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_154.png' -> ./test_data/processed_labels/MC/ts_154.png
+
+[INFO] Processing file: ts_155.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_155.png' -> ./test_data/processed_labels/SC/ts_155.png
+
+[INFO] Processing file: ts_156.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_156.png' -> ./test_data/processed_labels/DC/ts_156.png
+
+[INFO] Processing file: ts_157.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_157.png' -> ./test_data/processed_labels/SC/ts_157.png
+
+[INFO] Processing file: ts_158.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_158.png' -> ./test_data/processed_labels/SC/ts_158.png
+[INFO]   Saved combination 'DC' for 'ts_158.png' -> ./test_data/processed_labels/DC/ts_158.png
+[INFO]   Saved combination 'SC+DC' for 'ts_158.png' -> ./test_data/processed_labels/SC+DC/ts_158.png
+
+[INFO] Processing file: ts_159.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_159.png' -> ./test_data/processed_labels/SC/ts_159.png
+
+[INFO] Processing file: ts_16.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_16.png' -> ./test_data/processed_labels/SC/ts_16.png
+[INFO]   Saved combination 'MC' for 'ts_16.png' -> ./test_data/processed_labels/MC/ts_16.png
+[INFO]   Saved combination 'SC+MC' for 'ts_16.png' -> ./test_data/processed_labels/SC+MC/ts_16.png
+
+[INFO] Processing file: ts_160.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_160.png' -> ./test_data/processed_labels/SC/ts_160.png
+[INFO]   Saved combination 'DC' for 'ts_160.png' -> ./test_data/processed_labels/DC/ts_160.png
+[INFO]   Saved combination 'SC+DC' for 'ts_160.png' -> ./test_data/processed_labels/SC+DC/ts_160.png
+
+[INFO] Processing file: ts_161.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_161.png' -> ./test_data/processed_labels/MC/ts_161.png
+
+[INFO] Processing file: ts_162.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_162.png' -> ./test_data/processed_labels/DC/ts_162.png
+
+[INFO] Processing file: ts_163.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_163.png' -> ./test_data/processed_labels/SC/ts_163.png
+[INFO]   Saved combination 'MC' for 'ts_163.png' -> ./test_data/processed_labels/MC/ts_163.png
+[INFO]   Saved combination 'SC+MC' for 'ts_163.png' -> ./test_data/processed_labels/SC+MC/ts_163.png
+
+[INFO] Processing file: ts_164.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_164.png' -> ./test_data/processed_labels/SC/ts_164.png
+[INFO]   Saved combination 'MC' for 'ts_164.png' -> ./test_data/processed_labels/MC/ts_164.png
+[INFO]   Saved combination 'SC+MC' for 'ts_164.png' -> ./test_data/processed_labels/SC+MC/ts_164.png
+
+[INFO] Processing file: ts_165.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_165.png' -> ./test_data/processed_labels/SC/ts_165.png
+
+[INFO] Processing file: ts_166.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_166.png' -> ./test_data/processed_labels/DC/ts_166.png
+
+[INFO] Processing file: ts_167.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_167.png' -> ./test_data/processed_labels/SC/ts_167.png
+
+[INFO] Processing file: ts_168.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_168.png' -> ./test_data/processed_labels/DC/ts_168.png
+
+[INFO] Processing file: ts_169.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_169.png' -> ./test_data/processed_labels/SC/ts_169.png
+[INFO]   Saved combination 'MC' for 'ts_169.png' -> ./test_data/processed_labels/MC/ts_169.png
+[INFO]   Saved combination 'DC' for 'ts_169.png' -> ./test_data/processed_labels/DC/ts_169.png
+[INFO]   Saved combination 'SC+MC' for 'ts_169.png' -> ./test_data/processed_labels/SC+MC/ts_169.png
+[INFO]   Saved combination 'SC+DC' for 'ts_169.png' -> ./test_data/processed_labels/SC+DC/ts_169.png
+[INFO]   Saved combination 'MC+DC' for 'ts_169.png' -> ./test_data/processed_labels/MC+DC/ts_169.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_169.png' -> ./test_data/processed_labels/SC+MC+DC/ts_169.png
+
+[INFO] Processing file: ts_17.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_17.png' -> ./test_data/processed_labels/SC/ts_17.png
+[INFO]   Saved combination 'MC' for 'ts_17.png' -> ./test_data/processed_labels/MC/ts_17.png
+[INFO]   Saved combination 'SC+MC' for 'ts_17.png' -> ./test_data/processed_labels/SC+MC/ts_17.png
+
+[INFO] Processing file: ts_170.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_170.png' -> ./test_data/processed_labels/DC/ts_170.png
+
+[INFO] Processing file: ts_171.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_171.png' -> ./test_data/processed_labels/SC/ts_171.png
+[INFO]   Saved combination 'DC' for 'ts_171.png' -> ./test_data/processed_labels/DC/ts_171.png
+[INFO]   Saved combination 'SC+DC' for 'ts_171.png' -> ./test_data/processed_labels/SC+DC/ts_171.png
+
+[INFO] Processing file: ts_172.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_172.png' -> ./test_data/processed_labels/DC/ts_172.png
+
+[INFO] Processing file: ts_173.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_173.png' -> ./test_data/processed_labels/SC/ts_173.png
+[INFO]   Saved combination 'DC' for 'ts_173.png' -> ./test_data/processed_labels/DC/ts_173.png
+[INFO]   Saved combination 'SC+DC' for 'ts_173.png' -> ./test_data/processed_labels/SC+DC/ts_173.png
+
+[INFO] Processing file: ts_174.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_174.png' -> ./test_data/processed_labels/SC/ts_174.png
+[INFO]   Saved combination 'MC' for 'ts_174.png' -> ./test_data/processed_labels/MC/ts_174.png
+[INFO]   Saved combination 'DC' for 'ts_174.png' -> ./test_data/processed_labels/DC/ts_174.png
+[INFO]   Saved combination 'SC+MC' for 'ts_174.png' -> ./test_data/processed_labels/SC+MC/ts_174.png
+[INFO]   Saved combination 'SC+DC' for 'ts_174.png' -> ./test_data/processed_labels/SC+DC/ts_174.png
+[INFO]   Saved combination 'MC+DC' for 'ts_174.png' -> ./test_data/processed_labels/MC+DC/ts_174.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_174.png' -> ./test_data/processed_labels/SC+MC+DC/ts_174.png
+
+[INFO] Processing file: ts_175.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_175.png' -> ./test_data/processed_labels/MC/ts_175.png
+[INFO]   Saved combination 'DC' for 'ts_175.png' -> ./test_data/processed_labels/DC/ts_175.png
+[INFO]   Saved combination 'MC+DC' for 'ts_175.png' -> ./test_data/processed_labels/MC+DC/ts_175.png
+
+[INFO] Processing file: ts_176.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_176.png' -> ./test_data/processed_labels/SC/ts_176.png
+
+[INFO] Processing file: ts_177.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_177.png' -> ./test_data/processed_labels/SC/ts_177.png
+[INFO]   Saved combination 'MC' for 'ts_177.png' -> ./test_data/processed_labels/MC/ts_177.png
+[INFO]   Saved combination 'DC' for 'ts_177.png' -> ./test_data/processed_labels/DC/ts_177.png
+[INFO]   Saved combination 'SC+MC' for 'ts_177.png' -> ./test_data/processed_labels/SC+MC/ts_177.png
+[INFO]   Saved combination 'SC+DC' for 'ts_177.png' -> ./test_data/processed_labels/SC+DC/ts_177.png
+[INFO]   Saved combination 'MC+DC' for 'ts_177.png' -> ./test_data/processed_labels/MC+DC/ts_177.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_177.png' -> ./test_data/processed_labels/SC+MC+DC/ts_177.png
+
+[INFO] Processing file: ts_178.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_178.png' -> ./test_data/processed_labels/MC/ts_178.png
+
+[INFO] Processing file: ts_179.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_179.png' -> ./test_data/processed_labels/SC/ts_179.png
+[INFO]   Saved combination 'MC' for 'ts_179.png' -> ./test_data/processed_labels/MC/ts_179.png
+[INFO]   Saved combination 'DC' for 'ts_179.png' -> ./test_data/processed_labels/DC/ts_179.png
+[INFO]   Saved combination 'SC+MC' for 'ts_179.png' -> ./test_data/processed_labels/SC+MC/ts_179.png
+[INFO]   Saved combination 'SC+DC' for 'ts_179.png' -> ./test_data/processed_labels/SC+DC/ts_179.png
+[INFO]   Saved combination 'MC+DC' for 'ts_179.png' -> ./test_data/processed_labels/MC+DC/ts_179.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_179.png' -> ./test_data/processed_labels/SC+MC+DC/ts_179.png
+
+[INFO] Processing file: ts_18.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_18.png' -> ./test_data/processed_labels/SC/ts_18.png
+[INFO]   Saved combination 'MC' for 'ts_18.png' -> ./test_data/processed_labels/MC/ts_18.png
+[INFO]   Saved combination 'DC' for 'ts_18.png' -> ./test_data/processed_labels/DC/ts_18.png
+[INFO]   Saved combination 'SC+MC' for 'ts_18.png' -> ./test_data/processed_labels/SC+MC/ts_18.png
+[INFO]   Saved combination 'SC+DC' for 'ts_18.png' -> ./test_data/processed_labels/SC+DC/ts_18.png
+[INFO]   Saved combination 'MC+DC' for 'ts_18.png' -> ./test_data/processed_labels/MC+DC/ts_18.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_18.png' -> ./test_data/processed_labels/SC+MC+DC/ts_18.png
+
+[INFO] Processing file: ts_180.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_180.png' -> ./test_data/processed_labels/SC/ts_180.png
+
+[INFO] Processing file: ts_181.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_181.png' -> ./test_data/processed_labels/MC/ts_181.png
+
+[INFO] Processing file: ts_182.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_182.png' -> ./test_data/processed_labels/SC/ts_182.png
+[INFO]   Saved combination 'MC' for 'ts_182.png' -> ./test_data/processed_labels/MC/ts_182.png
+[INFO]   Saved combination 'SC+MC' for 'ts_182.png' -> ./test_data/processed_labels/SC+MC/ts_182.png
+
+[INFO] Processing file: ts_183.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_183.png' -> ./test_data/processed_labels/SC/ts_183.png
+
+[INFO] Processing file: ts_184.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_184.png' -> ./test_data/processed_labels/MC/ts_184.png
+
+[INFO] Processing file: ts_185.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_185.png' -> ./test_data/processed_labels/MC/ts_185.png
+[INFO]   Saved combination 'DC' for 'ts_185.png' -> ./test_data/processed_labels/DC/ts_185.png
+[INFO]   Saved combination 'MC+DC' for 'ts_185.png' -> ./test_data/processed_labels/MC+DC/ts_185.png
+
+[INFO] Processing file: ts_186.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_186.png' -> ./test_data/processed_labels/MC/ts_186.png
+[INFO]   Saved combination 'DC' for 'ts_186.png' -> ./test_data/processed_labels/DC/ts_186.png
+[INFO]   Saved combination 'MC+DC' for 'ts_186.png' -> ./test_data/processed_labels/MC+DC/ts_186.png
+
+[INFO] Processing file: ts_187.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_187.png' -> ./test_data/processed_labels/SC/ts_187.png
+[INFO]   Saved combination 'MC' for 'ts_187.png' -> ./test_data/processed_labels/MC/ts_187.png
+[INFO]   Saved combination 'SC+MC' for 'ts_187.png' -> ./test_data/processed_labels/SC+MC/ts_187.png
+
+[INFO] Processing file: ts_188.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_188.png' -> ./test_data/processed_labels/SC/ts_188.png
+[INFO]   Saved combination 'MC' for 'ts_188.png' -> ./test_data/processed_labels/MC/ts_188.png
+[INFO]   Saved combination 'DC' for 'ts_188.png' -> ./test_data/processed_labels/DC/ts_188.png
+[INFO]   Saved combination 'SC+MC' for 'ts_188.png' -> ./test_data/processed_labels/SC+MC/ts_188.png
+[INFO]   Saved combination 'SC+DC' for 'ts_188.png' -> ./test_data/processed_labels/SC+DC/ts_188.png
+[INFO]   Saved combination 'MC+DC' for 'ts_188.png' -> ./test_data/processed_labels/MC+DC/ts_188.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_188.png' -> ./test_data/processed_labels/SC+MC+DC/ts_188.png
+
+[INFO] Processing file: ts_189.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_189.png' -> ./test_data/processed_labels/SC/ts_189.png
+
+[INFO] Processing file: ts_19.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_19.png' -> ./test_data/processed_labels/SC/ts_19.png
+[INFO]   Saved combination 'MC' for 'ts_19.png' -> ./test_data/processed_labels/MC/ts_19.png
+[INFO]   Saved combination 'SC+MC' for 'ts_19.png' -> ./test_data/processed_labels/SC+MC/ts_19.png
+
+[INFO] Processing file: ts_190.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_190.png' -> ./test_data/processed_labels/SC/ts_190.png
+[INFO]   Saved combination 'MC' for 'ts_190.png' -> ./test_data/processed_labels/MC/ts_190.png
+[INFO]   Saved combination 'DC' for 'ts_190.png' -> ./test_data/processed_labels/DC/ts_190.png
+[INFO]   Saved combination 'SC+MC' for 'ts_190.png' -> ./test_data/processed_labels/SC+MC/ts_190.png
+[INFO]   Saved combination 'SC+DC' for 'ts_190.png' -> ./test_data/processed_labels/SC+DC/ts_190.png
+[INFO]   Saved combination 'MC+DC' for 'ts_190.png' -> ./test_data/processed_labels/MC+DC/ts_190.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_190.png' -> ./test_data/processed_labels/SC+MC+DC/ts_190.png
+
+[INFO] Processing file: ts_191.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_191.png' -> ./test_data/processed_labels/DC/ts_191.png
+
+[INFO] Processing file: ts_192.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_192.png' -> ./test_data/processed_labels/MC/ts_192.png
+
+[INFO] Processing file: ts_194.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_194.png' -> ./test_data/processed_labels/DC/ts_194.png
+
+[INFO] Processing file: ts_195.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_195.png' -> ./test_data/processed_labels/MC/ts_195.png
+
+[INFO] Processing file: ts_196.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_196.png' -> ./test_data/processed_labels/MC/ts_196.png
+[INFO]   Saved combination 'DC' for 'ts_196.png' -> ./test_data/processed_labels/DC/ts_196.png
+[INFO]   Saved combination 'MC+DC' for 'ts_196.png' -> ./test_data/processed_labels/MC+DC/ts_196.png
+
+[INFO] Processing file: ts_197.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_197.png' -> ./test_data/processed_labels/SC/ts_197.png
+[INFO]   Saved combination 'MC' for 'ts_197.png' -> ./test_data/processed_labels/MC/ts_197.png
+[INFO]   Saved combination 'SC+MC' for 'ts_197.png' -> ./test_data/processed_labels/SC+MC/ts_197.png
+
+[INFO] Processing file: ts_198.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_198.png' -> ./test_data/processed_labels/SC/ts_198.png
+
+[INFO] Processing file: ts_199.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_199.png' -> ./test_data/processed_labels/SC/ts_199.png
+
+[INFO] Processing file: ts_2.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_2.png' -> ./test_data/processed_labels/SC/ts_2.png
+
+[INFO] Processing file: ts_20.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_20.png' -> ./test_data/processed_labels/SC/ts_20.png
+[INFO]   Saved combination 'MC' for 'ts_20.png' -> ./test_data/processed_labels/MC/ts_20.png
+[INFO]   Saved combination 'SC+MC' for 'ts_20.png' -> ./test_data/processed_labels/SC+MC/ts_20.png
+
+[INFO] Processing file: ts_200.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_200.png' -> ./test_data/processed_labels/MC/ts_200.png
+
+[INFO] Processing file: ts_201.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_201.png' -> ./test_data/processed_labels/SC/ts_201.png
+[INFO]   Saved combination 'DC' for 'ts_201.png' -> ./test_data/processed_labels/DC/ts_201.png
+[INFO]   Saved combination 'SC+DC' for 'ts_201.png' -> ./test_data/processed_labels/SC+DC/ts_201.png
+
+[INFO] Processing file: ts_202.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_202.png' -> ./test_data/processed_labels/SC/ts_202.png
+[INFO]   Saved combination 'MC' for 'ts_202.png' -> ./test_data/processed_labels/MC/ts_202.png
+[INFO]   Saved combination 'SC+MC' for 'ts_202.png' -> ./test_data/processed_labels/SC+MC/ts_202.png
+
+[INFO] Processing file: ts_203.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_203.png' -> ./test_data/processed_labels/SC/ts_203.png
+[INFO]   Saved combination 'MC' for 'ts_203.png' -> ./test_data/processed_labels/MC/ts_203.png
+[INFO]   Saved combination 'SC+MC' for 'ts_203.png' -> ./test_data/processed_labels/SC+MC/ts_203.png
+
+[INFO] Processing file: ts_204.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_204.png' -> ./test_data/processed_labels/SC/ts_204.png
+[INFO]   Saved combination 'MC' for 'ts_204.png' -> ./test_data/processed_labels/MC/ts_204.png
+[INFO]   Saved combination 'SC+MC' for 'ts_204.png' -> ./test_data/processed_labels/SC+MC/ts_204.png
+
+[INFO] Processing file: ts_205.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_205.png' -> ./test_data/processed_labels/SC/ts_205.png
+
+[INFO] Processing file: ts_206.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_206.png' -> ./test_data/processed_labels/SC/ts_206.png
+[INFO]   Saved combination 'DC' for 'ts_206.png' -> ./test_data/processed_labels/DC/ts_206.png
+[INFO]   Saved combination 'SC+DC' for 'ts_206.png' -> ./test_data/processed_labels/SC+DC/ts_206.png
+
+[INFO] Processing file: ts_207.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_207.png' -> ./test_data/processed_labels/MC/ts_207.png
+
+[INFO] Processing file: ts_208.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_208.png' -> ./test_data/processed_labels/DC/ts_208.png
+
+[INFO] Processing file: ts_209.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_209.png' -> ./test_data/processed_labels/SC/ts_209.png
+
+[INFO] Processing file: ts_21.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_21.png' -> ./test_data/processed_labels/SC/ts_21.png
+
+[INFO] Processing file: ts_210.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_210.png' -> ./test_data/processed_labels/DC/ts_210.png
+
+[INFO] Processing file: ts_211.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_211.png' -> ./test_data/processed_labels/SC/ts_211.png
+
+[INFO] Processing file: ts_212.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_212.png' -> ./test_data/processed_labels/DC/ts_212.png
+
+[INFO] Processing file: ts_213.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_213.png' -> ./test_data/processed_labels/SC/ts_213.png
+
+[INFO] Processing file: ts_214.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_214.png' -> ./test_data/processed_labels/MC/ts_214.png
+[INFO]   Saved combination 'DC' for 'ts_214.png' -> ./test_data/processed_labels/DC/ts_214.png
+[INFO]   Saved combination 'MC+DC' for 'ts_214.png' -> ./test_data/processed_labels/MC+DC/ts_214.png
+
+[INFO] Processing file: ts_215.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_215.png' -> ./test_data/processed_labels/DC/ts_215.png
+
+[INFO] Processing file: ts_216.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_216.png' -> ./test_data/processed_labels/DC/ts_216.png
+
+[INFO] Processing file: ts_217.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_217.png' -> ./test_data/processed_labels/DC/ts_217.png
+
+[INFO] Processing file: ts_218.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_218.png' -> ./test_data/processed_labels/SC/ts_218.png
+
+[INFO] Processing file: ts_219.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_219.png' -> ./test_data/processed_labels/MC/ts_219.png
+[INFO]   Saved combination 'DC' for 'ts_219.png' -> ./test_data/processed_labels/DC/ts_219.png
+[INFO]   Saved combination 'MC+DC' for 'ts_219.png' -> ./test_data/processed_labels/MC+DC/ts_219.png
+
+[INFO] Processing file: ts_22.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_22.png' -> ./test_data/processed_labels/SC/ts_22.png
+[INFO]   Saved combination 'MC' for 'ts_22.png' -> ./test_data/processed_labels/MC/ts_22.png
+[INFO]   Saved combination 'SC+MC' for 'ts_22.png' -> ./test_data/processed_labels/SC+MC/ts_22.png
+
+[INFO] Processing file: ts_220.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_220.png' -> ./test_data/processed_labels/MC/ts_220.png
+[INFO]   Saved combination 'DC' for 'ts_220.png' -> ./test_data/processed_labels/DC/ts_220.png
+[INFO]   Saved combination 'MC+DC' for 'ts_220.png' -> ./test_data/processed_labels/MC+DC/ts_220.png
+
+[INFO] Processing file: ts_221.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_221.png' -> ./test_data/processed_labels/SC/ts_221.png
+
+[INFO] Processing file: ts_222.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_222.png' -> ./test_data/processed_labels/SC/ts_222.png
+
+[INFO] Processing file: ts_223.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_223.png' -> ./test_data/processed_labels/SC/ts_223.png
+
+[INFO] Processing file: ts_224.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_224.png' -> ./test_data/processed_labels/SC/ts_224.png
+
+[INFO] Processing file: ts_225.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_225.png' -> ./test_data/processed_labels/SC/ts_225.png
+[INFO]   Saved combination 'DC' for 'ts_225.png' -> ./test_data/processed_labels/DC/ts_225.png
+[INFO]   Saved combination 'SC+DC' for 'ts_225.png' -> ./test_data/processed_labels/SC+DC/ts_225.png
+
+[INFO] Processing file: ts_226.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_226.png' -> ./test_data/processed_labels/SC/ts_226.png
+
+[INFO] Processing file: ts_227.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_227.png' -> ./test_data/processed_labels/MC/ts_227.png
+
+[INFO] Processing file: ts_228.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_228.png' -> ./test_data/processed_labels/SC/ts_228.png
+[INFO]   Saved combination 'MC' for 'ts_228.png' -> ./test_data/processed_labels/MC/ts_228.png
+[INFO]   Saved combination 'SC+MC' for 'ts_228.png' -> ./test_data/processed_labels/SC+MC/ts_228.png
+
+[INFO] Processing file: ts_229.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_229.png' -> ./test_data/processed_labels/MC/ts_229.png
+[INFO]   Saved combination 'DC' for 'ts_229.png' -> ./test_data/processed_labels/DC/ts_229.png
+[INFO]   Saved combination 'MC+DC' for 'ts_229.png' -> ./test_data/processed_labels/MC+DC/ts_229.png
+
+[INFO] Processing file: ts_23.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_23.png' -> ./test_data/processed_labels/SC/ts_23.png
+
+[INFO] Processing file: ts_230.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_230.png' -> ./test_data/processed_labels/DC/ts_230.png
+
+[INFO] Processing file: ts_231.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_231.png' -> ./test_data/processed_labels/DC/ts_231.png
+
+[INFO] Processing file: ts_232.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_232.png' -> ./test_data/processed_labels/SC/ts_232.png
+[INFO]   Saved combination 'MC' for 'ts_232.png' -> ./test_data/processed_labels/MC/ts_232.png
+[INFO]   Saved combination 'DC' for 'ts_232.png' -> ./test_data/processed_labels/DC/ts_232.png
+[INFO]   Saved combination 'SC+MC' for 'ts_232.png' -> ./test_data/processed_labels/SC+MC/ts_232.png
+[INFO]   Saved combination 'SC+DC' for 'ts_232.png' -> ./test_data/processed_labels/SC+DC/ts_232.png
+[INFO]   Saved combination 'MC+DC' for 'ts_232.png' -> ./test_data/processed_labels/MC+DC/ts_232.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_232.png' -> ./test_data/processed_labels/SC+MC+DC/ts_232.png
+
+[INFO] Processing file: ts_233.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_233.png' -> ./test_data/processed_labels/SC/ts_233.png
+
+[INFO] Processing file: ts_234.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_234.png' -> ./test_data/processed_labels/SC/ts_234.png
+
+[INFO] Processing file: ts_235.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_235.png' -> ./test_data/processed_labels/SC/ts_235.png
+
+[INFO] Processing file: ts_236.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_236.png' -> ./test_data/processed_labels/SC/ts_236.png
+
+[INFO] Processing file: ts_237.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_237.png' -> ./test_data/processed_labels/SC/ts_237.png
+
+[INFO] Processing file: ts_238.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_238.png' -> ./test_data/processed_labels/SC/ts_238.png
+
+[INFO] Processing file: ts_24.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_24.png' -> ./test_data/processed_labels/MC/ts_24.png
+
+[INFO] Processing file: ts_240.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_240.png' -> ./test_data/processed_labels/SC/ts_240.png
+[INFO]   Saved combination 'MC' for 'ts_240.png' -> ./test_data/processed_labels/MC/ts_240.png
+[INFO]   Saved combination 'SC+MC' for 'ts_240.png' -> ./test_data/processed_labels/SC+MC/ts_240.png
+
+[INFO] Processing file: ts_241.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_241.png' -> ./test_data/processed_labels/MC/ts_241.png
+
+[INFO] Processing file: ts_242.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_242.png' -> ./test_data/processed_labels/SC/ts_242.png
+
+[INFO] Processing file: ts_243.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_243.png' -> ./test_data/processed_labels/SC/ts_243.png
+[INFO]   Saved combination 'MC' for 'ts_243.png' -> ./test_data/processed_labels/MC/ts_243.png
+[INFO]   Saved combination 'SC+MC' for 'ts_243.png' -> ./test_data/processed_labels/SC+MC/ts_243.png
+
+[INFO] Processing file: ts_244.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_244.png' -> ./test_data/processed_labels/SC/ts_244.png
+[INFO]   Saved combination 'MC' for 'ts_244.png' -> ./test_data/processed_labels/MC/ts_244.png
+[INFO]   Saved combination 'SC+MC' for 'ts_244.png' -> ./test_data/processed_labels/SC+MC/ts_244.png
+
+[INFO] Processing file: ts_245.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_245.png' -> ./test_data/processed_labels/MC/ts_245.png
+
+[INFO] Processing file: ts_246.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_246.png' -> ./test_data/processed_labels/SC/ts_246.png
+[INFO]   Saved combination 'MC' for 'ts_246.png' -> ./test_data/processed_labels/MC/ts_246.png
+[INFO]   Saved combination 'SC+MC' for 'ts_246.png' -> ./test_data/processed_labels/SC+MC/ts_246.png
+
+[INFO] Processing file: ts_247.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_247.png' -> ./test_data/processed_labels/SC/ts_247.png
+
+[INFO] Processing file: ts_248.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_248.png' -> ./test_data/processed_labels/SC/ts_248.png
+
+[INFO] Processing file: ts_249.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_249.png' -> ./test_data/processed_labels/SC/ts_249.png
+[INFO]   Saved combination 'DC' for 'ts_249.png' -> ./test_data/processed_labels/DC/ts_249.png
+[INFO]   Saved combination 'SC+DC' for 'ts_249.png' -> ./test_data/processed_labels/SC+DC/ts_249.png
+
+[INFO] Processing file: ts_25.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_25.png' -> ./test_data/processed_labels/MC/ts_25.png
+
+[INFO] Processing file: ts_250.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_250.png' -> ./test_data/processed_labels/SC/ts_250.png
+
+[INFO] Processing file: ts_251.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_251.png' -> ./test_data/processed_labels/MC/ts_251.png
+[INFO]   Saved combination 'DC' for 'ts_251.png' -> ./test_data/processed_labels/DC/ts_251.png
+[INFO]   Saved combination 'MC+DC' for 'ts_251.png' -> ./test_data/processed_labels/MC+DC/ts_251.png
+
+[INFO] Processing file: ts_252.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_252.png' -> ./test_data/processed_labels/DC/ts_252.png
+
+[INFO] Processing file: ts_253.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_253.png' -> ./test_data/processed_labels/SC/ts_253.png
+[INFO]   Saved combination 'DC' for 'ts_253.png' -> ./test_data/processed_labels/DC/ts_253.png
+[INFO]   Saved combination 'SC+DC' for 'ts_253.png' -> ./test_data/processed_labels/SC+DC/ts_253.png
+
+[INFO] Processing file: ts_254.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_254.png' -> ./test_data/processed_labels/SC/ts_254.png
+[INFO]   Saved combination 'MC' for 'ts_254.png' -> ./test_data/processed_labels/MC/ts_254.png
+[INFO]   Saved combination 'SC+MC' for 'ts_254.png' -> ./test_data/processed_labels/SC+MC/ts_254.png
+
+[INFO] Processing file: ts_255.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_255.png' -> ./test_data/processed_labels/MC/ts_255.png
+
+[INFO] Processing file: ts_256.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_256.png' -> ./test_data/processed_labels/SC/ts_256.png
+[INFO]   Saved combination 'MC' for 'ts_256.png' -> ./test_data/processed_labels/MC/ts_256.png
+[INFO]   Saved combination 'DC' for 'ts_256.png' -> ./test_data/processed_labels/DC/ts_256.png
+[INFO]   Saved combination 'SC+MC' for 'ts_256.png' -> ./test_data/processed_labels/SC+MC/ts_256.png
+[INFO]   Saved combination 'SC+DC' for 'ts_256.png' -> ./test_data/processed_labels/SC+DC/ts_256.png
+[INFO]   Saved combination 'MC+DC' for 'ts_256.png' -> ./test_data/processed_labels/MC+DC/ts_256.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_256.png' -> ./test_data/processed_labels/SC+MC+DC/ts_256.png
+
+[INFO] Processing file: ts_257.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_257.png' -> ./test_data/processed_labels/DC/ts_257.png
+
+[INFO] Processing file: ts_258.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_258.png' -> ./test_data/processed_labels/DC/ts_258.png
+
+[INFO] Processing file: ts_259.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_259.png' -> ./test_data/processed_labels/DC/ts_259.png
+
+[INFO] Processing file: ts_26.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_26.png' -> ./test_data/processed_labels/SC/ts_26.png
+
+[INFO] Processing file: ts_260.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_260.png' -> ./test_data/processed_labels/MC/ts_260.png
+
+[INFO] Processing file: ts_261.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_261.png' -> ./test_data/processed_labels/SC/ts_261.png
+
+[INFO] Processing file: ts_262.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_262.png' -> ./test_data/processed_labels/SC/ts_262.png
+[INFO]   Saved combination 'MC' for 'ts_262.png' -> ./test_data/processed_labels/MC/ts_262.png
+[INFO]   Saved combination 'DC' for 'ts_262.png' -> ./test_data/processed_labels/DC/ts_262.png
+[INFO]   Saved combination 'SC+MC' for 'ts_262.png' -> ./test_data/processed_labels/SC+MC/ts_262.png
+[INFO]   Saved combination 'SC+DC' for 'ts_262.png' -> ./test_data/processed_labels/SC+DC/ts_262.png
+[INFO]   Saved combination 'MC+DC' for 'ts_262.png' -> ./test_data/processed_labels/MC+DC/ts_262.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_262.png' -> ./test_data/processed_labels/SC+MC+DC/ts_262.png
+
+[INFO] Processing file: ts_263.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_263.png' -> ./test_data/processed_labels/DC/ts_263.png
+
+[INFO] Processing file: ts_264.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_264.png' -> ./test_data/processed_labels/MC/ts_264.png
+
+[INFO] Processing file: ts_27.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_27.png' -> ./test_data/processed_labels/DC/ts_27.png
+
+[INFO] Processing file: ts_28.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_28.png' -> ./test_data/processed_labels/SC/ts_28.png
+
+[INFO] Processing file: ts_29.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_29.png' -> ./test_data/processed_labels/SC/ts_29.png
+[INFO]   Saved combination 'MC' for 'ts_29.png' -> ./test_data/processed_labels/MC/ts_29.png
+[INFO]   Saved combination 'SC+MC' for 'ts_29.png' -> ./test_data/processed_labels/SC+MC/ts_29.png
+
+[INFO] Processing file: ts_3.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_3.png' -> ./test_data/processed_labels/MC/ts_3.png
+[INFO]   Saved combination 'DC' for 'ts_3.png' -> ./test_data/processed_labels/DC/ts_3.png
+[INFO]   Saved combination 'MC+DC' for 'ts_3.png' -> ./test_data/processed_labels/MC+DC/ts_3.png
+
+[INFO] Processing file: ts_30.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_30.png' -> ./test_data/processed_labels/MC/ts_30.png
+
+[INFO] Processing file: ts_31.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_31.png' -> ./test_data/processed_labels/SC/ts_31.png
+
+[INFO] Processing file: ts_32.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_32.png' -> ./test_data/processed_labels/SC/ts_32.png
+[INFO]   Saved combination 'DC' for 'ts_32.png' -> ./test_data/processed_labels/DC/ts_32.png
+[INFO]   Saved combination 'SC+DC' for 'ts_32.png' -> ./test_data/processed_labels/SC+DC/ts_32.png
+
+[INFO] Processing file: ts_33.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_33.png' -> ./test_data/processed_labels/MC/ts_33.png
+
+[INFO] Processing file: ts_34.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_34.png' -> ./test_data/processed_labels/SC/ts_34.png
+[INFO]   Saved combination 'MC' for 'ts_34.png' -> ./test_data/processed_labels/MC/ts_34.png
+[INFO]   Saved combination 'SC+MC' for 'ts_34.png' -> ./test_data/processed_labels/SC+MC/ts_34.png
+
+[INFO] Processing file: ts_35.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_35.png' -> ./test_data/processed_labels/MC/ts_35.png
+[INFO]   Saved combination 'DC' for 'ts_35.png' -> ./test_data/processed_labels/DC/ts_35.png
+[INFO]   Saved combination 'MC+DC' for 'ts_35.png' -> ./test_data/processed_labels/MC+DC/ts_35.png
+
+[INFO] Processing file: ts_36.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_36.png' -> ./test_data/processed_labels/SC/ts_36.png
+[INFO]   Saved combination 'DC' for 'ts_36.png' -> ./test_data/processed_labels/DC/ts_36.png
+[INFO]   Saved combination 'SC+DC' for 'ts_36.png' -> ./test_data/processed_labels/SC+DC/ts_36.png
+
+[INFO] Processing file: ts_37.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_37.png' -> ./test_data/processed_labels/MC/ts_37.png
+
+[INFO] Processing file: ts_38.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_38.png' -> ./test_data/processed_labels/MC/ts_38.png
+
+[INFO] Processing file: ts_39.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_39.png' -> ./test_data/processed_labels/SC/ts_39.png
+
+[INFO] Processing file: ts_4.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_4.png' -> ./test_data/processed_labels/MC/ts_4.png
+
+[INFO] Processing file: ts_40.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_40.png' -> ./test_data/processed_labels/SC/ts_40.png
+
+[INFO] Processing file: ts_41.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_41.png' -> ./test_data/processed_labels/SC/ts_41.png
+[INFO]   Saved combination 'DC' for 'ts_41.png' -> ./test_data/processed_labels/DC/ts_41.png
+[INFO]   Saved combination 'SC+DC' for 'ts_41.png' -> ./test_data/processed_labels/SC+DC/ts_41.png
+
+[INFO] Processing file: ts_42.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_42.png' -> ./test_data/processed_labels/SC/ts_42.png
+
+[INFO] Processing file: ts_43.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_43.png' -> ./test_data/processed_labels/DC/ts_43.png
+
+[INFO] Processing file: ts_44.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_44.png' -> ./test_data/processed_labels/MC/ts_44.png
+[INFO]   Saved combination 'DC' for 'ts_44.png' -> ./test_data/processed_labels/DC/ts_44.png
+[INFO]   Saved combination 'MC+DC' for 'ts_44.png' -> ./test_data/processed_labels/MC+DC/ts_44.png
+
+[INFO] Processing file: ts_45.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_45.png' -> ./test_data/processed_labels/SC/ts_45.png
+[INFO]   Saved combination 'DC' for 'ts_45.png' -> ./test_data/processed_labels/DC/ts_45.png
+[INFO]   Saved combination 'SC+DC' for 'ts_45.png' -> ./test_data/processed_labels/SC+DC/ts_45.png
+
+[INFO] Processing file: ts_46.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_46.png' -> ./test_data/processed_labels/SC/ts_46.png
+[INFO]   Saved combination 'MC' for 'ts_46.png' -> ./test_data/processed_labels/MC/ts_46.png
+[INFO]   Saved combination 'SC+MC' for 'ts_46.png' -> ./test_data/processed_labels/SC+MC/ts_46.png
+
+[INFO] Processing file: ts_47.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_47.png' -> ./test_data/processed_labels/SC/ts_47.png
+[INFO]   Saved combination 'MC' for 'ts_47.png' -> ./test_data/processed_labels/MC/ts_47.png
+[INFO]   Saved combination 'DC' for 'ts_47.png' -> ./test_data/processed_labels/DC/ts_47.png
+[INFO]   Saved combination 'SC+MC' for 'ts_47.png' -> ./test_data/processed_labels/SC+MC/ts_47.png
+[INFO]   Saved combination 'SC+DC' for 'ts_47.png' -> ./test_data/processed_labels/SC+DC/ts_47.png
+[INFO]   Saved combination 'MC+DC' for 'ts_47.png' -> ./test_data/processed_labels/MC+DC/ts_47.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_47.png' -> ./test_data/processed_labels/SC+MC+DC/ts_47.png
+
+[INFO] Processing file: ts_48.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_48.png' -> ./test_data/processed_labels/MC/ts_48.png
+[INFO]   Saved combination 'DC' for 'ts_48.png' -> ./test_data/processed_labels/DC/ts_48.png
+[INFO]   Saved combination 'MC+DC' for 'ts_48.png' -> ./test_data/processed_labels/MC+DC/ts_48.png
+
+[INFO] Processing file: ts_49.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_49.png' -> ./test_data/processed_labels/SC/ts_49.png
+
+[INFO] Processing file: ts_5.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_5.png' -> ./test_data/processed_labels/DC/ts_5.png
+
+[INFO] Processing file: ts_50.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_50.png' -> ./test_data/processed_labels/SC/ts_50.png
+
+[INFO] Processing file: ts_51.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_51.png' -> ./test_data/processed_labels/SC/ts_51.png
+[INFO]   Saved combination 'MC' for 'ts_51.png' -> ./test_data/processed_labels/MC/ts_51.png
+[INFO]   Saved combination 'DC' for 'ts_51.png' -> ./test_data/processed_labels/DC/ts_51.png
+[INFO]   Saved combination 'SC+MC' for 'ts_51.png' -> ./test_data/processed_labels/SC+MC/ts_51.png
+[INFO]   Saved combination 'SC+DC' for 'ts_51.png' -> ./test_data/processed_labels/SC+DC/ts_51.png
+[INFO]   Saved combination 'MC+DC' for 'ts_51.png' -> ./test_data/processed_labels/MC+DC/ts_51.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_51.png' -> ./test_data/processed_labels/SC+MC+DC/ts_51.png
+
+[INFO] Processing file: ts_52.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_52.png' -> ./test_data/processed_labels/SC/ts_52.png
+
+[INFO] Processing file: ts_53.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_53.png' -> ./test_data/processed_labels/MC/ts_53.png
+
+[INFO] Processing file: ts_54.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_54.png' -> ./test_data/processed_labels/MC/ts_54.png
+
+[INFO] Processing file: ts_55.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_55.png' -> ./test_data/processed_labels/SC/ts_55.png
+[INFO]   Saved combination 'MC' for 'ts_55.png' -> ./test_data/processed_labels/MC/ts_55.png
+[INFO]   Saved combination 'DC' for 'ts_55.png' -> ./test_data/processed_labels/DC/ts_55.png
+[INFO]   Saved combination 'SC+MC' for 'ts_55.png' -> ./test_data/processed_labels/SC+MC/ts_55.png
+[INFO]   Saved combination 'SC+DC' for 'ts_55.png' -> ./test_data/processed_labels/SC+DC/ts_55.png
+[INFO]   Saved combination 'MC+DC' for 'ts_55.png' -> ./test_data/processed_labels/MC+DC/ts_55.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_55.png' -> ./test_data/processed_labels/SC+MC+DC/ts_55.png
+
+[INFO] Processing file: ts_56.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_56.png' -> ./test_data/processed_labels/MC/ts_56.png
+
+[INFO] Processing file: ts_57.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_57.png' -> ./test_data/processed_labels/SC/ts_57.png
+[INFO]   Saved combination 'MC' for 'ts_57.png' -> ./test_data/processed_labels/MC/ts_57.png
+[INFO]   Saved combination 'SC+MC' for 'ts_57.png' -> ./test_data/processed_labels/SC+MC/ts_57.png
+
+[INFO] Processing file: ts_58.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_58.png' -> ./test_data/processed_labels/SC/ts_58.png
+
+[INFO] Processing file: ts_59.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_59.png' -> ./test_data/processed_labels/DC/ts_59.png
+
+[INFO] Processing file: ts_6.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_6.png' -> ./test_data/processed_labels/SC/ts_6.png
+
+[INFO] Processing file: ts_60.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_60.png' -> ./test_data/processed_labels/SC/ts_60.png
+[INFO]   Saved combination 'MC' for 'ts_60.png' -> ./test_data/processed_labels/MC/ts_60.png
+[INFO]   Saved combination 'SC+MC' for 'ts_60.png' -> ./test_data/processed_labels/SC+MC/ts_60.png
+
+[INFO] Processing file: ts_61.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_61.png' -> ./test_data/processed_labels/SC/ts_61.png
+
+[INFO] Processing file: ts_62.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_62.png' -> ./test_data/processed_labels/SC/ts_62.png
+[INFO]   Saved combination 'MC' for 'ts_62.png' -> ./test_data/processed_labels/MC/ts_62.png
+[INFO]   Saved combination 'SC+MC' for 'ts_62.png' -> ./test_data/processed_labels/SC+MC/ts_62.png
+
+[INFO] Processing file: ts_63.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_63.png' -> ./test_data/processed_labels/DC/ts_63.png
+
+[INFO] Processing file: ts_64.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_64.png' -> ./test_data/processed_labels/SC/ts_64.png
+[INFO]   Saved combination 'MC' for 'ts_64.png' -> ./test_data/processed_labels/MC/ts_64.png
+[INFO]   Saved combination 'SC+MC' for 'ts_64.png' -> ./test_data/processed_labels/SC+MC/ts_64.png
+
+[INFO] Processing file: ts_65.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_65.png' -> ./test_data/processed_labels/MC/ts_65.png
+
+[INFO] Processing file: ts_66.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_66.png' -> ./test_data/processed_labels/DC/ts_66.png
+
+[INFO] Processing file: ts_67.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_67.png' -> ./test_data/processed_labels/SC/ts_67.png
+
+[INFO] Processing file: ts_68.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_68.png' -> ./test_data/processed_labels/SC/ts_68.png
+
+[INFO] Processing file: ts_69.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_69.png' -> ./test_data/processed_labels/SC/ts_69.png
+[INFO]   Saved combination 'DC' for 'ts_69.png' -> ./test_data/processed_labels/DC/ts_69.png
+[INFO]   Saved combination 'SC+DC' for 'ts_69.png' -> ./test_data/processed_labels/SC+DC/ts_69.png
+
+[INFO] Processing file: ts_7.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_7.png' -> ./test_data/processed_labels/SC/ts_7.png
+[INFO]   Saved combination 'DC' for 'ts_7.png' -> ./test_data/processed_labels/DC/ts_7.png
+[INFO]   Saved combination 'SC+DC' for 'ts_7.png' -> ./test_data/processed_labels/SC+DC/ts_7.png
+
+[INFO] Processing file: ts_70.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_70.png' -> ./test_data/processed_labels/SC/ts_70.png
+[INFO]   Saved combination 'MC' for 'ts_70.png' -> ./test_data/processed_labels/MC/ts_70.png
+[INFO]   Saved combination 'SC+MC' for 'ts_70.png' -> ./test_data/processed_labels/SC+MC/ts_70.png
+
+[INFO] Processing file: ts_71.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_71.png' -> ./test_data/processed_labels/SC/ts_71.png
+
+[INFO] Processing file: ts_72.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_72.png' -> ./test_data/processed_labels/MC/ts_72.png
+
+[INFO] Processing file: ts_73.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_73.png' -> ./test_data/processed_labels/SC/ts_73.png
+
+[INFO] Processing file: ts_74.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_74.png' -> ./test_data/processed_labels/SC/ts_74.png
+
+[INFO] Processing file: ts_75.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_75.png' -> ./test_data/processed_labels/DC/ts_75.png
+
+[INFO] Processing file: ts_76.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_76.png' -> ./test_data/processed_labels/SC/ts_76.png
+
+[INFO] Processing file: ts_77.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_77.png' -> ./test_data/processed_labels/MC/ts_77.png
+
+[INFO] Processing file: ts_78.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_78.png' -> ./test_data/processed_labels/MC/ts_78.png
+[INFO]   Saved combination 'DC' for 'ts_78.png' -> ./test_data/processed_labels/DC/ts_78.png
+[INFO]   Saved combination 'MC+DC' for 'ts_78.png' -> ./test_data/processed_labels/MC+DC/ts_78.png
+
+[INFO] Processing file: ts_79.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_79.png' -> ./test_data/processed_labels/SC/ts_79.png
+[INFO]   Saved combination 'MC' for 'ts_79.png' -> ./test_data/processed_labels/MC/ts_79.png
+[INFO]   Saved combination 'SC+MC' for 'ts_79.png' -> ./test_data/processed_labels/SC+MC/ts_79.png
+
+[INFO] Processing file: ts_8.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_8.png' -> ./test_data/processed_labels/SC/ts_8.png
+
+[INFO] Processing file: ts_80.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_80.png' -> ./test_data/processed_labels/MC/ts_80.png
+[INFO]   Saved combination 'DC' for 'ts_80.png' -> ./test_data/processed_labels/DC/ts_80.png
+[INFO]   Saved combination 'MC+DC' for 'ts_80.png' -> ./test_data/processed_labels/MC+DC/ts_80.png
+
+[INFO] Processing file: ts_81.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_81.png' -> ./test_data/processed_labels/SC/ts_81.png
+[INFO]   Saved combination 'MC' for 'ts_81.png' -> ./test_data/processed_labels/MC/ts_81.png
+[INFO]   Saved combination 'SC+MC' for 'ts_81.png' -> ./test_data/processed_labels/SC+MC/ts_81.png
+
+[INFO] Processing file: ts_82.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_82.png' -> ./test_data/processed_labels/SC/ts_82.png
+
+[INFO] Processing file: ts_83.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_83.png' -> ./test_data/processed_labels/SC/ts_83.png
+
+[INFO] Processing file: ts_84.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_84.png' -> ./test_data/processed_labels/SC/ts_84.png
+[INFO]   Saved combination 'MC' for 'ts_84.png' -> ./test_data/processed_labels/MC/ts_84.png
+[INFO]   Saved combination 'DC' for 'ts_84.png' -> ./test_data/processed_labels/DC/ts_84.png
+[INFO]   Saved combination 'SC+MC' for 'ts_84.png' -> ./test_data/processed_labels/SC+MC/ts_84.png
+[INFO]   Saved combination 'SC+DC' for 'ts_84.png' -> ./test_data/processed_labels/SC+DC/ts_84.png
+[INFO]   Saved combination 'MC+DC' for 'ts_84.png' -> ./test_data/processed_labels/MC+DC/ts_84.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_84.png' -> ./test_data/processed_labels/SC+MC+DC/ts_84.png
+
+[INFO] Processing file: ts_85.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_85.png' -> ./test_data/processed_labels/DC/ts_85.png
+
+[INFO] Processing file: ts_86.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_86.png' -> ./test_data/processed_labels/MC/ts_86.png
+
+[INFO] Processing file: ts_87.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_87.png' -> ./test_data/processed_labels/MC/ts_87.png
+
+[INFO] Processing file: ts_88.png
+[DEBUG]   Unique pixel values in image: [0, 102, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 255]
+[INFO]   Saved combination 'SC' for 'ts_88.png' -> ./test_data/processed_labels/SC/ts_88.png
+[INFO]   Saved combination 'DC' for 'ts_88.png' -> ./test_data/processed_labels/DC/ts_88.png
+[INFO]   Saved combination 'SC+DC' for 'ts_88.png' -> ./test_data/processed_labels/SC+DC/ts_88.png
+
+[INFO] Processing file: ts_89.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_89.png' -> ./test_data/processed_labels/MC/ts_89.png
+[INFO]   Saved combination 'DC' for 'ts_89.png' -> ./test_data/processed_labels/DC/ts_89.png
+[INFO]   Saved combination 'MC+DC' for 'ts_89.png' -> ./test_data/processed_labels/MC+DC/ts_89.png
+
+[INFO] Processing file: ts_9.png
+[DEBUG]   Unique pixel values in image: [0, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [153]
+[INFO]   Saved combination 'MC' for 'ts_9.png' -> ./test_data/processed_labels/MC/ts_9.png
+
+[INFO] Processing file: ts_90.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_90.png' -> ./test_data/processed_labels/DC/ts_90.png
+
+[INFO] Processing file: ts_91.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_91.png' -> ./test_data/processed_labels/SC/ts_91.png
+
+[INFO] Processing file: ts_92.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_92.png' -> ./test_data/processed_labels/SC/ts_92.png
+
+[INFO] Processing file: ts_93.png
+[DEBUG]   Unique pixel values in image: [0, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [153, 255]
+[INFO]   Saved combination 'MC' for 'ts_93.png' -> ./test_data/processed_labels/MC/ts_93.png
+[INFO]   Saved combination 'DC' for 'ts_93.png' -> ./test_data/processed_labels/DC/ts_93.png
+[INFO]   Saved combination 'MC+DC' for 'ts_93.png' -> ./test_data/processed_labels/MC+DC/ts_93.png
+
+[INFO] Processing file: ts_94.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153]
+[INFO]   Saved combination 'SC' for 'ts_94.png' -> ./test_data/processed_labels/SC/ts_94.png
+[INFO]   Saved combination 'MC' for 'ts_94.png' -> ./test_data/processed_labels/MC/ts_94.png
+[INFO]   Saved combination 'SC+MC' for 'ts_94.png' -> ./test_data/processed_labels/SC+MC/ts_94.png
+
+[INFO] Processing file: ts_95.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_95.png' -> ./test_data/processed_labels/DC/ts_95.png
+
+[INFO] Processing file: ts_96.png
+[DEBUG]   Unique pixel values in image: [0, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [255]
+[INFO]   Saved combination 'DC' for 'ts_96.png' -> ./test_data/processed_labels/DC/ts_96.png
+
+[INFO] Processing file: ts_97.png
+[DEBUG]   Unique pixel values in image: [0, 102, 153, 255]
+[DEBUG]   Present label values (SC/MC/DC only): [102, 153, 255]
+[INFO]   Saved combination 'SC' for 'ts_97.png' -> ./test_data/processed_labels/SC/ts_97.png
+[INFO]   Saved combination 'MC' for 'ts_97.png' -> ./test_data/processed_labels/MC/ts_97.png
+[INFO]   Saved combination 'DC' for 'ts_97.png' -> ./test_data/processed_labels/DC/ts_97.png
+[INFO]   Saved combination 'SC+MC' for 'ts_97.png' -> ./test_data/processed_labels/SC+MC/ts_97.png
+[INFO]   Saved combination 'SC+DC' for 'ts_97.png' -> ./test_data/processed_labels/SC+DC/ts_97.png
+[INFO]   Saved combination 'MC+DC' for 'ts_97.png' -> ./test_data/processed_labels/MC+DC/ts_97.png
+[INFO]   Saved combination 'SC+MC+DC' for 'ts_97.png' -> ./test_data/processed_labels/SC+MC+DC/ts_97.png
+
+[INFO] Processing file: ts_98.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_98.png' -> ./test_data/processed_labels/SC/ts_98.png
+
+[INFO] Processing file: ts_99.png
+[DEBUG]   Unique pixel values in image: [0, 102]
+[DEBUG]   Present label values (SC/MC/DC only): [102]
+[INFO]   Saved combination 'SC' for 'ts_99.png' -> ./test_data/processed_labels/SC/ts_99.png
+
+[SUMMARY] Processing complete.
+[SUMMARY] Total files processed: 261
+[SUMMARY] Total files skipped due to errors: 0
+[SUMMARY] Per-combination counts:
+  SC: 157 file(s) generated
+  MC: 120 file(s) generated
+  DC: 107 file(s) generated
+  SC+MC: 61 file(s) generated
+  SC+DC: 44 file(s) generated
+  MC+DC: 39 file(s) generated
+  SC+MC+DC: 21 file(s) generated
