@@ -110,7 +110,7 @@ Backdrop slides for the ≤ 60-second spotlight video — **Motivation → Techn
   <br><br>
   <img src="docs/figures/spotlight_3.png" alt="Spotlight slide 3 — Potential Impact" width="80%">
 </p>
-<p align="center"><sub>🖥️ <a href="assets/CarDiff_MIUA2026_spotlight.pdf">Slides (PDF)</a> &nbsp;·&nbsp; 🎙️ <a href="assets/CarDiff_MIUA2026_spotlight_transcript.pdf">60-second speaking script</a> &nbsp;·&nbsp; ✏️ <a href="assets/CarDiff_MIUA2026_spotlight_src.zip">Editable LaTeX source</a></sub></p>
+<p align="center"><sub>🖥️ <a href="assets/CarDiff_MIUA2026_spotlight.pdf">Slides (PDF)</a> &nbsp;·&nbsp;
 
 ---
 
