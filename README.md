@@ -97,7 +97,7 @@ Presentation materials prepared for **MIUA 2026** (University College Dublin · 
 <p align="center">
   <a href="assets/CarDiff_MIUA2026_poster.pdf"><img src="docs/figures/poster.png" alt="CarDiff MIUA 2026 conference poster" width="56%"></a>
 </p>
-<p align="center"><sub>📄 <a href="assets/CarDiff_MIUA2026_poster.pdf">Poster (PDF)</a> &nbsp;·&nbsp; ✏️ <a href="assets/CarDiff_MIUA2026_poster_src.zip">Editable LaTeX source</a></sub></p>
+<p align="center"><sub>📄 <a href="assets/CarDiff_MIUA2026_poster.pdf">Poster (PDF)</a> &nbsp;·&nbsp; 
 
 ### 1-minute Research Spotlight
 
