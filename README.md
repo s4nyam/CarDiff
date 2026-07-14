@@ -95,7 +95,7 @@ Presentation materials prepared for **MIUA 2026** (University College Dublin · 
 ### Conference poster (A0 portrait)
 
 <p align="center">
-  <a href="assets/CarDiff_MIUA2026_poster.pdf"><img src="docs/figures/poster.png" alt="CarDiff MIUA 2026 conference poster" width="56%"></a>
+  <a href="assets/CarDiff_MIUA2026_poster.pdf"><img src="docs/figures/poster.png" alt="CarDiff MIUA 2026 conference poster" width="86%"></a>
 </p>
 <p align="center"><sub>📄 <a href="assets/CarDiff_MIUA2026_poster.pdf">Poster (PDF)</a> &nbsp;·&nbsp; 
 
