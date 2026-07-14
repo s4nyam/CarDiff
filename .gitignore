@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Cluster / job logs
+logs/
+*.err
+*.out
+slurm-*.out
+*.log
+miopen-cache*/
+
+# Model weights & large artifacts (not versioned)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Data (kept out of the repo)
+data/
+*.npy
+*.npz
+
+# Generated samples
+samples/
+generated/
+outputs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

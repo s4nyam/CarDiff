@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the paper below."
+title: "CarDiff: Anatomically-Aware Dental Caries Synthesis using Diffusion"
+authors:
+  - family-names: Jain
+    given-names: Sanyam
+    affiliation: "Aarhus University, Denmark"
+  - family-names: "Neves de Freitas"
+    given-names: Bruna
+    affiliation: "Aarhus Institute of Advanced Studies (AIAS), Aarhus University, Denmark"
+  - family-names: Iosifidis
+    given-names: Alexandros
+    affiliation: "Tampere University, Finland"
+  - family-names: Pauwels
+    given-names: Ruben
+    affiliation: "Aarhus University, Denmark"
+preferred-citation:
+  type: conference-paper
+  title: "CarDiff: Anatomically-Aware Dental Caries Synthesis using Diffusion"
+  collection-title: "Medical Image Understanding and Analysis (MIUA)"
+  year: 2026
+  authors:
+    - family-names: Jain
+      given-names: Sanyam
+    - family-names: "Neves de Freitas"
+      given-names: Bruna
+    - family-names: Iosifidis
+      given-names: Alexandros
+    - family-names: Pauwels
+      given-names: Ruben

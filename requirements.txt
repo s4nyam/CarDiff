@@ -1,0 +1,27 @@
+# CarDiff — core dependencies (Python 3.10)
+# Install PyTorch matching your CUDA/ROCm build first: https://pytorch.org/get-started/locally/
+
+torch>=2.0
+torchvision>=0.15
+diffusers>=0.21
+numpy
+pillow
+tqdm
+matplotlib
+pandas
+scipy
+opencv-python
+datasets
+
+# synthesis-quality metrics
+torch-fidelity
+lpips
+
+# downstream segmentation benchmarks
+segmentation-models-pytorch
+
+# --- optional ---
+blobfile                  # baseline (SegDiff) checkpoint IO
+mpi4py                    # baseline distributed training (needs a system MPI)
+streamlit                 # tools/create_manual_masks — interactive masking app
+streamlit-drawable-canvas
