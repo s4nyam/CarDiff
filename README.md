@@ -97,20 +97,22 @@ Presentation materials prepared for **MIUA 2026** (University College Dublin · 
 <p align="center">
   <a href="assets/CarDiff_MIUA2026_poster.pdf"><img src="docs/figures/poster.png" alt="CarDiff MIUA 2026 conference poster" width="86%"></a>
 </p>
-<p align="center"><sub>📄 <a href="assets/CarDiff_MIUA2026_poster.pdf">Poster (PDF)</a> &nbsp;·&nbsp; 
+<p align="center"><sub>📄 <a href="assets/CarDiff_MIUA2026_poster.pdf">Poster (PDF)</a></sub></p>
 
 ### 1-minute Research Spotlight
 
-Backdrop slides for the spotlight — **Motivation → Technical Innovation → Potential Impact**.
+Backdrop slides for the ≤ 60-second spotlight video — **Title & Authors → Motivation → Technical Innovation → Potential Impact**.
 
 <p align="center">
-  <img src="docs/figures/spotlight_1.png" alt="Spotlight slide 1 — Motivation" width="80%">
+  <img src="docs/figures/spotlight_1.png" alt="Spotlight slide 1 — Title & Authors" width="80%">
   <br><br>
-  <img src="docs/figures/spotlight_2.png" alt="Spotlight slide 2 — Technical Innovation" width="80%">
+  <img src="docs/figures/spotlight_2.png" alt="Spotlight slide 2 — Motivation" width="80%">
   <br><br>
-  <img src="docs/figures/spotlight_3.png" alt="Spotlight slide 3 — Potential Impact" width="80%">
+  <img src="docs/figures/spotlight_3.png" alt="Spotlight slide 3 — Technical Innovation" width="80%">
+  <br><br>
+  <img src="docs/figures/spotlight_4.png" alt="Spotlight slide 4 — Potential Impact" width="80%">
 </p>
-<p align="center"><sub>🖥️ <a href="assets/CarDiff_MIUA2026_spotlight.pdf">Slides (PDF)</a> &nbsp;·&nbsp;
+<p align="center"><sub>🖥️ <a href="assets/CarDiff_MIUA2026_spotlight.pdf">Slides (PDF)</a> &nbsp;·&nbsp; 🎙️ <a href="assets/CarDiff_MIUA2026_spotlight_transcript.pdf">60-second speaking script</a></sub></p>
 
 ---
 
@@ -134,7 +136,7 @@ CarDiff/
 ├── baselines/            # Comparison methods: SPADE · SCDM · SISDM · SegDiff
 ├── analysis/             # Plotting & qualitative mosaics
 ├── tools/                # Data utilities (manual masking app, pixel cleanup)
-├── assets/               # Paper, poster & 1-min spotlight (PDF + LaTeX sources)
+├── assets/               # Paper, poster, 1-min spotlight & speaking script (PDF)
 ├── docs/                 # Figures & supplementary material
 ├── requirements.txt
 └── LICENSE
