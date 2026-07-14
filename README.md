@@ -92,7 +92,7 @@ Averaged over **seven** segmentation architectures (U‑Net, U‑Net++, FPN, Lin
 
 Presentation materials prepared for **MIUA 2026** (University College Dublin · 20–22 July 2026).
 
-### Conference poster (A0 portrait)
+### Conference poster
 
 <p align="center">
   <a href="assets/CarDiff_MIUA2026_poster.pdf"><img src="docs/figures/poster.png" alt="CarDiff MIUA 2026 conference poster" width="86%"></a>
@@ -101,7 +101,7 @@ Presentation materials prepared for **MIUA 2026** (University College Dublin · 
 
 ### 1-minute Research Spotlight
 
-Backdrop slides for the ≤ 60-second spotlight video — **Motivation → Technical Innovation → Potential Impact**.
+Backdrop slides for the spotlight — **Motivation → Technical Innovation → Potential Impact**.
 
 <p align="center">
   <img src="docs/figures/spotlight_1.png" alt="Spotlight slide 1 — Motivation" width="80%">
