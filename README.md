@@ -53,6 +53,8 @@ All diffusion happens in the latent space of a **frozen dental VAE**.
 > baselines, and 5× synthetic augmentation improves downstream caries segmentation by **+6.5% mean
 > Dice** across seven architectures — with the largest gains on the rare early lesions.
 
+CarDiff extended version will be released later. Stay Tuned.
+
 ---
 
 ## Key results
